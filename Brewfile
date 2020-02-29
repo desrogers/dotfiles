@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'puma/puma'
 tap 'homebrew/cask-fonts'
 
+brew 'neovim'
 brew 'ack'
 brew 'coreutils'
 brew 'itermocil'
