@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'puma/puma'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 
 brew 'ack'
 brew 'coreutils'
