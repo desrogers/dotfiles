@@ -1,6 +1,6 @@
-# ginatrapani / dotfiles
+# dotfiles
 
-Based on & many thanks to [holman/dotfiles](https://github.com/holman/dotfiles)
+Based on & many thanks to [ginatrapani/dotfiles](https://github.com/ginatrapani/dotfiles)
 
 ## components
 
@@ -26,7 +26,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/ginatrapani/dotfiles.git ~/.dotfiles
+git clone https://github.com/dezrogers/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
