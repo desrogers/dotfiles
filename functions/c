@@ -16,6 +16,8 @@
 # This also accounts for how Go structures its projects. For example, it will
 # autocomplete both on $PROJECTS, and also assume you want to autocomplete on
 # your Go projects in $GOPATH/src.
+PROJECTS=$HOME/Projects
+GOPATH=$HOME/GoSpace
 
 if [ ! -z "$1" ] && [ -s "$GOPATH/src/github.com/$1" ]; then
   cd "$GOPATH/src/github.com/$1"

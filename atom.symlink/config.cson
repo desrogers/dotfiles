@@ -6,7 +6,6 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "atom-beautify"
       "php-cs-fixer"
       "prettier-atom"
       "minimap"
@@ -28,7 +27,6 @@
     showIndentGuide: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
-    tabLength: 4
   "linter-phpcs":
     autoConfigSearch: false
     autoExecutableSearch: false
