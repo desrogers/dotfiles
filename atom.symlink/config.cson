@@ -21,12 +21,19 @@
       "vendor"
     ]
     telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
     fontFamily: "FiraCode-Retina"
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
   "linter-phpcs":
     autoConfigSearch: false
     autoExecutableSearch: false
