@@ -1,5 +1,5 @@
 from nose.tools import *
-import MODULE_NAME
+import NAME
 
 def setup():
     print('SETUP!')
