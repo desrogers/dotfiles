@@ -8,5 +8,4 @@ linter-eslint@8.5.5
 linter-phpcs@1.7.6
 linter-ui-default@1.8.1
 minimap@4.29.9
-php-cs-fixer@4.1.1
-
+php-cs-fixer@4.2.0

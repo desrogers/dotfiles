@@ -6,9 +6,9 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "php-cs-fixer"
       "prettier-atom"
       "minimap"
+      "php-cs-fixer"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -23,7 +23,7 @@
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
-      "one-light-syntax"
+      "base16-tomorrow-light-theme"
     ]
   editor:
     fontFamily: "FiraCode-Retina"
@@ -37,12 +37,13 @@
   "linter-phpcs":
     autoConfigSearch: false
     autoExecutableSearch: false
-    codeStandardOrConfigFile: "WordPress-VIP"
-    executablePath: "/Users/ginatrapani/.composer/vendor/bin/phpcs"
+    executablePath: "/Users/dez/.composer/vendor/bin/phpcs"
     showSource: false
     tabWidth: 4
   "linter-ui-default":
     panelHeight: 69
+  "markdown-preview":
+    useGitHubStyle: true
   minimap:
     absoluteMode: true
     displayCodeHighlights: false
