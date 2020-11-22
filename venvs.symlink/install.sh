@@ -2,7 +2,7 @@
 
 # This install script creates a skeleton directory for Python projects
 
-WORKING_DIR="$HOME/Projects"
+WORKING_DIR=$PROJECTS
 SCRIPT_DIR=`dirname $(realpath $0)`
 
 # Copy the Skeleton Project Directory and Subdirectories
