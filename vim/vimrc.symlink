@@ -1,0 +1,29 @@
+set incsearch   " show incremental search results as you type
+set nocompatible
+filetype plugin indent on
+
+" Vim-Plug
+" Specify a directory for plugins
+" - For Neovim: stdpath('data') . '/plugged'
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-sensible'
+
+" Language
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+
+" Style
+Plug 'tpope/vim-commentary'    
+
+" Color
+Plug 'morhetz/gruvbox'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+" Initialize plugin system
+call plug#end()
+
