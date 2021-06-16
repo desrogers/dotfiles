@@ -60,12 +60,13 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'gruvbox-community/gruvbox'
+" Plug 'gruvbox-community/gruvbox'
 
 " Initialize plugin system
 call plug#end()
 
-colorscheme gruvbox
+
+" colorscheme gruvbox
 
 " Airline
 let g:airline_powerline_fonts = 1
