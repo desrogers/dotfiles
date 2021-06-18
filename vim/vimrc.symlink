@@ -22,7 +22,7 @@ set scrolloff=8
 set noshowmode
 set completeopt=menuone,noinsert,noselect
 
-set colorcolumn=80
+set colorcolumn=100
 
 " Some servers have issues with backup files, see #649.
 set nobackup
