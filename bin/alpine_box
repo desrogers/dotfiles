@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Run the command ‘alpine_box’ to spin up an alpine linux pod in your kubernetes cluster.
+# This is useful for troubleshooting issues from within the network.
+function alpine_box {
+  kubectl run -i --rm --tty alpine --image=alpine -- sh
+}
