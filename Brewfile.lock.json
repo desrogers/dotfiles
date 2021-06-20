@@ -697,7 +697,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.1.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "6d0577097be331659daaae463efad47ca53d86aa",
+        "Homebrew/homebrew-core": "ab9a892966d21651dff07621fcca34ca049aedec",
         "CLT": "12.0.0.31.1",
         "Xcode": "12.4",
         "macOS": "10.15.7"
