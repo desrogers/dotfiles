@@ -5,3 +5,5 @@
 function alpine_box {
   kubectl run -i --rm --tty alpine --image=alpine -- sh
 }
+
+alpine_box
