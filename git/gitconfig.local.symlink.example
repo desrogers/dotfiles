@@ -1,9 +1,9 @@
 [user]
-	name = Gina Trapani
-	email = ginatrapani@gmail.com
+	name = Desmond Rogers
+	email = 32533354+desrogers@users.noreply.github.com
 [credential]
 	helper = osxkeychain
 [diff]
-	tool = atom
+	tool = vim
 [core]
-	editor = atom --wait
+	editor = vim
