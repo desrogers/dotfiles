@@ -37,6 +37,8 @@ Everything is configured and tweaked within `~/.dotfiles`.
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
+The next file you should create is `~/.localrc` for config specific to the machine that you don't want to save to the dotfiles repo
+
 ## freshen up
 
 `dot` is a simple script that installs some dependencies, sets sane macOS
