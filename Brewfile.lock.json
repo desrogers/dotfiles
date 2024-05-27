@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "9bbdd3d7712c19cbaf7ffb4d84b4b42ee109112c"
+        "revision": "011f75aa0d27cfd78a60be4f3e0803e2f0a032de"
       },
       "puma/puma": {
         "revision": "283ffc1c54d62ef03867de3ff38ae11fc4a125cf"
@@ -1016,6 +1016,15 @@
         "version": "6.1.16,140961",
         "options": {
           "full_name": "virtualbox",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "launchbar": {
+        "version": "6.18.5",
+        "options": {
+          "full_name": "launchbar",
           "args": {
             "appdir": "/Applications"
           }

@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'vim'
 brew 'gh'
 brew 'ack'
 brew 'coreutils'
@@ -15,6 +16,7 @@ brew 'roundup'
 brew 'tmux'
 brew 'wget'
 
+cask 'launchbar'
 cask '1password'
 cask 'docker'
 cask 'iterm2'
