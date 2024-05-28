@@ -2,7 +2,6 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-brew 'vim'
 brew 'gh'
 brew 'ack'
 brew 'coreutils'
