@@ -1,0 +1,14 @@
+install gh
+install ack
+install coreutils
+install gettext
+install kubectl-1.30
+install kubeswitch
+install docker
+install colima
+install openssl
+install readline
+install wget
+install 1password-cli
+install iTerm2
+install VLC
