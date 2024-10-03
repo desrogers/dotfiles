@@ -10,26 +10,26 @@ export ZSH=$HOME/.dotfiles
 $ZSH/macos/set-defaults.sh
 
 # Install homebrew
-#$ZSH/homebrew/_install.sh 2>&1
+$ZSH/homebrew/_install.sh 2>&1
 
 # Upgrade homebrew
-#echo "› brew update"
-#brew update
+echo "› brew update"
+brew update
 
 # Run Homebrew through the Brewfile
-#echo "› brew bundle"
-#brew bundle
+echo "› brew bundle"
+brew bundle
 
 # Install macports
-$ZSH/macports/_install.sh 2>&1
+#$ZSH/macports/_install.sh 2>&1
 
 # Update macports
-echo "› port selfupdate"
-sudo port -d selfupdate
+#echo "› port selfupdate"
+#sudo port -d selfupdate
 
 # Run MacPorts a file
-echo "› portf Portfile"
-sudo portf -N $ZSH/Portfile
+#echo "› portf Portfile"
+#sudo portf -N $ZSH/Portfile
 
 # Install software
 echo "› $ZSH/script/install"
