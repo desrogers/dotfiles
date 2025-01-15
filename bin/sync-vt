@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Run this command to sync VitalThumb
-function sync_vt() {
+function sync_vt {
     rsync -av --delete --exclude '.DS_Store' Documents/Areas/personal/VitalThumb /Volumes/SanDisk
 }
 
