@@ -17,11 +17,9 @@ set noswapfile
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set termguicolors
 set scrolloff=8
 set noshowmode
 set completeopt=menuone,noinsert,noselect
-
 set colorcolumn=100
 
 " Some servers have issues with backup files, see #649.
@@ -45,26 +43,16 @@ set shortmess+=c
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-dispatch'
-Plug 'sheerun/vim-polyglot'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
+"Plug 'tpope/vim-dispatch'
+"Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
-Plug 'dense-analysis/ale'
-Plug 'tpope/vim-commentary'    
 Plug 'airblade/vim-gitgutter'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" Plug 'gruvbox-community/gruvbox'
 
 " Initialize plugin system
 call plug#end()
-
-" colorscheme gruvbox
-
-" Airline
-let g:airline_powerline_fonts = 1
 
 " Gitgutter
 let g:gitgutter_sign_added = '✚'
