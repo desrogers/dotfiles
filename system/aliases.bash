@@ -8,3 +8,6 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+# ssh
+alias ssha='eval $(ssh-agent) && ssh-add' # credit: LearnLinuxTV
