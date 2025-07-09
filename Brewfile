@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew '1password-cli'
 brew 'bash'
+brew 'bash-completion@2'
 brew 'git'
 brew 'gh'
 brew 'ack'
