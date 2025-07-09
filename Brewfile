@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-brew '1password-cli'
+cask '1password-cli'
 brew 'bash'
 brew 'bash-completion@2'
 brew 'git'
