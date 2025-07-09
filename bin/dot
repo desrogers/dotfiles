@@ -18,7 +18,7 @@ brew update
 
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
-brew bundle
+brew bundle check || brew bundle
 
 # Install macports
 #$DOT/macports/install.sh 2>&1
@@ -37,4 +37,4 @@ $DOT/script/install
 
 # Update vim-plug
 echo "› vim :PlugUpdate"
-vim +'PlugUpdate --sync' +qa
+vim +'PlugUpdate --sync' +qall >/dev/null
