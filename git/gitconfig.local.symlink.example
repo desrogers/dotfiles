@@ -1,6 +1,6 @@
 [user]
-	name = Desmond Rogers
-	email = 32533354+desrogers@users.noreply.github.com
+	name = Full Name
+	email = uid+username@users.noreply.github.com
 [credential]
 	helper = osxkeychain
 [diff]
