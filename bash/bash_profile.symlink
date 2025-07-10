@@ -19,7 +19,7 @@ for file in $(find "$DOT" -type f -name "path.bash"); do
 done
 
 # load other conf files
-cfs=$(find "$DOT" -type f -name "*.bash" ! -name "path.bash" ! -name "completion.bash")
+cfs=$(find "$DOT" -type f -name "*.bash" ! -name "path.bash")
 for file in $cfs; do
     source "$file"
 done
