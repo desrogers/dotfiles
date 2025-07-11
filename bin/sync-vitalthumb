@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Run this command to sync VitalThumb
+PARENT_DIR='Library/Mobile Documents/com~apple~CloudDocs/Documents'
+
+function sync_vt {
+    rsync -av --delete --exclude '.DS_Store' "$HOME/$PARENT_DIR/VitalThumb" /Volumes/SanDisk
+}
+
+sync_vt

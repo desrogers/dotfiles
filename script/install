@@ -2,7 +2,7 @@
 #
 # Run all dotfiles installers.
 
-set -ex
+set -euo
 
 cd "$(dirname $0)"/..
 

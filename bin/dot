@@ -4,13 +4,13 @@
 #
 # `dot` handles installation, updates, things like that. Run it periodically
 # to make sure you're on the latest and greatest.
-export ZSH=$HOME/.dotfiles
+export DOT=$HOME/.dotfiles
 
 # Set macOS defaults
-$ZSH/macos/set-defaults.sh
+$DOT/macos/set-defaults.sh
 
 # Install homebrew
-$ZSH/homebrew/_install.sh 2>&1
+$DOT/homebrew/install.sh 2>&1
 
 # Upgrade homebrew
 echo "› brew update"
@@ -18,10 +18,10 @@ brew update
 
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
-brew bundle
+brew bundle check || brew bundle
 
 # Install macports
-#$ZSH/macports/_install.sh 2>&1
+#$DOT/macports/install.sh 2>&1
 
 # Update macports
 #echo "› port selfupdate"
@@ -29,8 +29,12 @@ brew bundle
 
 # Run MacPorts a file
 #echo "› portf Portfile"
-#sudo portf -N $ZSH/Portfile
+#sudo portf -N $DOT/Portfile
 
 # Install software
-echo "› $ZSH/script/install"
-$ZSH/script/install
+echo "› $DOT/script/install"
+$DOT/script/install
+
+# Update vim-plug
+echo "› vim :PlugUpdate"
+vim +'PlugUpdate --sync' +qall >/dev/null

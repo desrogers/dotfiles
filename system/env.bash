@@ -1,0 +1,3 @@
+export EDITOR='vim'
+export HISTSIZE=2000
+export HISTFILESIZE=2000
