@@ -3,6 +3,8 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 cask '1password-cli'
+cask 'visual-studio-code'
+
 brew 'bash'
 brew 'bash-completion@2'
 brew 'git'
