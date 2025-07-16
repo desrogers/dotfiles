@@ -18,7 +18,8 @@ brew update
 
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
-brew bundle check || brew bundle
+export HOMEBREW_BUNDLE_FILE=$DOT/Brewfile
+brew bundle check || brew bundle install
 
 # Install macports
 #$DOT/macports/install.sh 2>&1
